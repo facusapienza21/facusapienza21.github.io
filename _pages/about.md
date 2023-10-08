@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>485 Evans Hall</p>
+    <p>University of California, Berkeley</p>
+    <p>CA 94703, USA</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
