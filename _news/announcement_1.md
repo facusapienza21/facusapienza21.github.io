@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New preprint available! [Quantitative Analysis of Paleomagnetic Sampling Strategies](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023JB027211) :bell: 
+title: New preprint available! Quantitative Analysis of Paleomagnetic Sampling Strategies 
 date: 2023-05-30 16:11:00-0400
 inline: false
 related_posts: false
