@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Universal Differential Equations for glacier ice flow modelling
+title: New preprint available! [Universal Differential Equations for glacier ice flow modelling](https://gmd.copernicus.org/preprints/gmd-2023-120/) :bell: 
 date: 2023-06-07 16:11:00-0400
 inline: false
 related_posts: false
