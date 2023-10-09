@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - facusapienza21
+  - ODINN-SciML
+  - PolarWandering
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ODINN-SciML/ODINN.jl
+  - ODINN-SciML/DiffEqSensitivity-Review
+  - PolarWandering/PaleoSampling
+  - Fermat-distance/fermat
+  - UCB-stat-159-s23/site
