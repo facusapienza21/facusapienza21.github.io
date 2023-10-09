@@ -2,12 +2,12 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: This is some information about my GitHub profile, GitHub organzations where I contribute, and a short selection of repositories. 
 nav: true
 nav_order: 3
 ---
 
-## GitHub users
+## GitHub user
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -32,6 +32,11 @@ nav_order: 3
 {% endfor %}
 {% endif %}
 {% endif %}
+
+## GitHub Organizations
+
+I am currently developing [ODINN-SciML](https://github.com/ODINN-SciML) where we are working in developing ice flow models based on Universal Differential Equations in Julia. 
+I am also part of [PolarWandering](https://github.com/PolarWandering), a collaboration for the development of statistical methods for paleomagnetic estimation. 
 
 ## GitHub Repositories
 
