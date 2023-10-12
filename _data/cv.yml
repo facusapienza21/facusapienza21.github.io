@@ -7,6 +7,8 @@
       value: 10th May 1994
     - name: Languages
       value: English, Spanish (native)
+    - name: Pronouns
+      value: he/him/él
 
 - title: Education
   type: time_table
@@ -16,90 +18,41 @@
       department: Department of Statistics
       year: 2019-2024
       description:
-        - Fernando Pérez and Jonathan Taylor
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: MSc/BSc in Physics
-      institution: University of Buenos Aires
-      department: Department of Physics
-      year: 2012-2017
-      description:
-        - Augusto Roncaglia
+        - Advised by Fernando Pérez and Jonathan Taylor
 
     - title: MSc/BSc in Mathematics
       institution: University of Buenos Aires
       department: Department of Mathematics
       year: 2012-2018
       description:
-        - Pablo Groisman and Matthew Jonckheere
+        - Advised by Pablo Groisman and Matthew Jonckheere
 
-- title: Experience
+    - title: MSc/BSc in Physics
+      institution: University of Buenos Aires
+      department: Department of Physics
+      year: 2012-2017
+      description:
+        - Advised by Augusto Roncaglia
+
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Data Scientist 
+      institution: Aristas SRL
+      location: Buenos Aires, Argentina
+      year: 2015 - 2018
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Intern 
+      institution: Borealis AI, Canada
+      year: 2018 - 2019
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - H2H9 Fellowship
+    - year: 2019 - 2021
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Berkeley Fellowship
