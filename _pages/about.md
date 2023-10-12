@@ -19,7 +19,7 @@ selected_papers: true   # includes a list of papers marked as "selected={true}"
 social: true            # includes social icons at the bottom of the page
 ---
 
-I am an Argentinian PhD candidate working in the intersection of physics-informed machine learning, earth sciences and scientific computing. I am fortunate to be advised by Fernando Pérez (UC Berkeley, Project Jupyter) and Jonathan Taylor (Stanford). 
+I am an Argentinian PhD candidate with a background in mathematics, physics, and data science. My research lies in the intersection of novel data science methods and physics, with emphasis in glacier modelling and scientific software development. I am fortunate to be advised by Fernando Pérez (UC Berkeley, Project Jupyter) and Jonathan Taylor (Stanford). 
 
 Large part of my work is motivated by the use of differential equations as regression mechanisms to model complex geophysical systems. By leveraging in modern differential programming tools, it is possible to train machine learning models where the elements of the model are given by the numerical solutions of physical constrained differential equations. This allows to combined both data and physics-driven approaches. I focus in the applications of this tools for mountain glacier modelling, where I work in funcional inversion problems aiming to discover empirical laws governing the flow of ice. With the advent of rich datasets with larger spatial and temporal coverage, it is becoming possible to model glaciers at global scale. 
 
