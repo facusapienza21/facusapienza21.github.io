@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Facundo Fabian Sapienza
+      value: Facundo Fabián Sapienza
     - name: Date of Birth
       value: 10th May 1994
     - name: Languages
@@ -37,9 +37,8 @@
 - title: Professional Experience
   type: time_table
   contents:
-    - title: Data Scientist 
+    - title: Data Scientist, Argentina
       institution: Aristas SRL
-      location: Buenos Aires, Argentina
       year: 2015 - 2018
 
     - title: Research Intern 
