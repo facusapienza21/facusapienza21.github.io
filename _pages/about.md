@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Department of Statistics, UC Berkeley.
 
@@ -27,4 +27,4 @@ I also work in data-driven approaches for the modelling of apparent polar wander
 
 I am enthusiastic about open science and reproducibility research, and the ways that data science can help to democratize science. It is my belief that physics and earth science will benefit from the incorporation of data driven-approaces.
 
-**keyworkds: ** physics-informed ML, differential programming, glaciology, paleomagnetism, scientific computing, open-source. 
+**keyworkds:** _physics-informed ML, differential programming, glaciology, paleomagnetism, scientific computing, open-source_. 
