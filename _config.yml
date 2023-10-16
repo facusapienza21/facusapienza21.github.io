@@ -8,15 +8,14 @@ middle_name:
 last_name: Sapienza
 email: fsapienza@berkeley.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Facundo Sapienza personal website
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://facusapienza21.github.io # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
@@ -71,7 +70,7 @@ github_username: facusapienza21  # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: SapienzaFacu # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: Facundo Sapienza # your LinkedIn user name
+linkedin_username: www.linkedin.com/in/facundo-sapienza-b28930137 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: yWj-T4oAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -82,7 +81,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: https://www.researchgate.net/profile/Facundo-Sapienza # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
