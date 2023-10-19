@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: ODINN
+description: Glacier modelling using neural differential equations
+img: assets/img/odinn-portrait.png
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: Machine Learning and Geophysics
+related_publications: bolibar2023universal
 ---
 
 Every project has a beautiful feature showcase page.
