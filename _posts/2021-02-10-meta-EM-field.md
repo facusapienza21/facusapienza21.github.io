@@ -43,7 +43,7 @@ There are many ways to address this question and contextualize it into more comp
 
 Most of the objects we see and we experience in our everyday life are described by Classical Electromagnetism (EM), the theory that describes the behaviour of electrically charged particles and electromagnetic waves (light) <d-footnote>This analysis was carried out just for the case of the electromagnetic field in the context of classical EM. It would be interesting to think about how many of these ideas can be translated to the photon in the context of Quantum EM and other bosons in the Standard Model (gluons for the strong interactions and Z and W bosons for the weak interaction). In Quantum Electrodynamics, this same example is illustrated through the simplest of the Feynman’s diagrams footnote.</d-footnote>. 
 Maxwell's four equations give a full and compact description of the behaviour of the electromagnetic field, described by both the electrical ($E$) and magnetic ($B$) three-dimensional fields, and how these are linked to the distribution and movement of charged particles in space.
-From the EM field, we can infer the force that acts in a given charged particle immersed in that field using the Lorentz equation:
+From the EM field, we can infer the force that acts in a given charged particle immersed in that field using the Lorentz equation.
 
 $$
 F = q (E + v \times B)
