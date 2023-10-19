@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Paleomag Sampling
+title: Paleomagnetism
 description: Statistical modelling of paleomagnetic data
 img: assets/img/paleomag-portrait.png
 importance: 1

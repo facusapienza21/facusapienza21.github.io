@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ODINN
-description: Glacier modelling using neural differential equations
+description: Glacier modelling using neural differential equations in Julia
 img: assets/img/odinn-portrait.png
 importance: 1
 category: Machine Learning and Geophysics
