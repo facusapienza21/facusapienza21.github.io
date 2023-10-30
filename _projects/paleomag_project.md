@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Paleomagnetism
+title: Paleomag
 description: Statistical modelling of paleomagnetic data
 img: assets/img/paleomag-portrait.png
-importance: 1
+importance: 2
 category: Machine Learning and Geophysics
 related_publications: sapienza2023quantitative, gallo2023embracing, gallo2022optimization, vasquez2018anhysteretic
 ---

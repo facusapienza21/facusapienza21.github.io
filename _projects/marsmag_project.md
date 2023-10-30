@@ -3,7 +3,7 @@ layout: page
 title: MarsMag
 description: Statistical modelling of paleomagnetic data
 img: assets/img/paleomag-portrait.png
-importance: 1
+importance: 3
 category: Machine Learning and Geophysics
 related_publications: azari2023magnetic
 ---
