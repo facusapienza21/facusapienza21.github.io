@@ -35,11 +35,11 @@ Parts of the equation (e.g. a parameter) can be learnt by a regressor (e.g. a ne
 This model is built on top of the Open Global Glacier Model (OGGM) in Python, one of the most popular frameworks for large-scale glacier modelling. 
 Our final goal is to calibrate and validate this glacier evolution model with remote sensing data and climate reanalyses in order to understand past glacier changes and the role played by ice dynamics and mass balance.
 
-{% raw %}
+<!-- {% raw %}
 ```math
 \frac{\partial H}{\partial t} = \dot b + \nabla \cdot (D \nabla S)
 ```
-{% endraw %}
+{% endraw %} -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
