@@ -73,6 +73,7 @@
   pdf={https://gmd.copernicus.org/preprints/gmd-2023-120/gmd-2023-120.pdf},
   code={https://github.com/ODINN-SciML/ODINN.jl},
   preview={ODINN.jpg},
+  abstract={Geoscientific models are facing increasing challenges to exploit growing datasets coming from remote sensing. Universal Differential Equations (UDEs), aided by differentiable programming, provide a new scientific modelling paradigm enabling both complex functional inversions to potentially discover new physical laws and data assimilation from heterogeneous and sparse observations. We demonstrate an application of UDEs as a proof of concept to learn the creep component of ice flow, i.e. a nonlinear diffusivity differential equation, of a glacier evolution model. By combining a mechanistic model based on a 2D Shallow Ice Approximation Partial Differential Equation with an embedded neural network, i.e. a UDE, we can learn parts of an equation as nonlinear functions that then can be translated into mathematical expressions. We implemented this modelling framework as ODINN.jl, a package in the Julia programming language, providing high performance, source-to-source automatic differentiation (AD) and seamless integration with tools and global datasets from the Open Global Glacier Model in Python. We demonstrate this concept for 17 different glaciers around the world, for which we successfully recover a prescribed artificial law describing ice creep variability by solving ca 500,000 Ordinary Differential Equations in parallel. Furthermore, we investigate which are the best tools in the scientific machine learning ecosystem in Julia to differentiate and optimize large nonlinear diffusivity UDEs. This study represents a proof of concept for a new modelling framework aiming at discovering empirical laws for large-scale glacier processes, such as the variability of ice creep and basal sliding for ice flow, and new hybrid surface mass balance models.},
   bibtex_show={true},
   selected={true}
 }
@@ -88,6 +89,7 @@
   html={https://journals.aps.org/pre/abstract/10.1103/PhysRevE.106.034135},
   publisher={APS},
   bibtex_show={true},
+  abstract={We introduce heat engines working in the nanoregime that allow one to extract a finite amount of deterministic work. Using the resource theory approach to themodynamics, we show that the efficiency of these cycles is strictly smaller than Carnot's, and we associate this difference with a fundamental irreversibility that is present in single-shot transformations. When fluctuations in the extracted work are allowed there is a trade-off between their size and the efficiency. As the size of fluctuations increases so does the efficiency and optimal efficiency is attained for unbounded fluctuations, while a certain amount of deterministic work is drawn from the cycle. Finally, we show that when the working medium is composed of many particles, by creating an amount of correlations between the subsystems that scale logarithmically with their number, Carnot's efficiency can also be approached in the asymptotic limit along with deterministic work extraction.},
   preview={quantum-thermodynamics.jpg}
 }
 
@@ -101,6 +103,7 @@
   html={https://www.sciencedirect.com/science/article/pii/S0098300422001054},
   publisher={Elsevier},
   preview={paleomag.png},
+  abstract={Owing to the axial symmetry of the Earth’s magnetic field, paleomagnetic data only directly record the latitudinal and azimuthal positions of crustal blocks in the past, and paleolongitude cannot be constrained. An ability to overcome this obstacle is thus of fundamental importance to paleogeographic reconstruction. Paleomagnetic Euler pole (PEP) analysis presents a unique means to recover such information, but prior implementations of the PEP method have incorporated subjective decisions into its execution, undercutting its fidelity and rigor. Here we present an optimization approach to PEP analysis that addresses some of these deficiencies—namely the objective identification of change-points and small-circle arcs that together approximate an apparent polar wander path. We elaborate on our novel methodology and conduct some experiments with synthetic data to demonstrate its performance. We furthermore present implementations of our methods both as adaptable, stand-alone scripts in Python and as a streamlined interactive workflow that can be operated through a web browser.},
   bibtex_show={true}
 }
 
@@ -115,7 +118,9 @@
   html={https://academic.oup.com/biomet/article-abstract/109/1/49/6174686},
   publisher={Oxford University Press},
   bibtex_show={true},
-  preview={causal-graph.png}
+  preview={causal-graph.png},
+  code={https://github.com/facusapienza21/optimaladj},
+  abstract={We study the selection of adjustment sets for estimating the interventional mean under a point exposure dynamic treatment regime, that is, a treatment rule that depends on the subject’s covariates. We assume a nonparametric causal graphical model with, possibly, hidden variables and at least one adjustment set comprised of observable variables. We provide the definition of a valid adjustment set for a point exposure dynamic treatment regime, which generalizes the existing definition for a static intervention. We show that there exists an adjustment set, referred to as optimal minimal, that yields the nonparametric estimator of the interventional mean with the smallest asymptotic variance among those that are based on observable minimal adjustment sets. An observable minimal adjustment set is a valid adjustment set such that all its variables are observable and the removal of any of its variables destroys its validity. We provide similar optimality results for the class of observable minimum adjustment sets, that is, valid observable adjustment sets of minimum cardinality among the observable adjustment sets. Moreover, we show that if either no variables are hidden or if all the observable variables are ancestors of either treatment, outcome or the variables that are used to decide treatment, a globally optimal adjustment set exists. We provide polynomial-time algorithms to compute the globally optimal, optimal minimal and optimal minimum adjustment sets. Because static interventions can be viewed as a special case of dynamic regimes, all our results also apply for static interventions.}
 }
 
 @article{groisman2022nonhomogeneous,
@@ -129,6 +134,8 @@
   html={https://projecteuclid.org/journals/bernoulli/volume-28/issue-1/Nonhomogeneous-Euclidean-first-passage-percolation-and-distance-learning/10.3150/21-BEJ1341.short},
   publisher={Bernoulli Society for Mathematical Statistics and Probability},
   preview={Fermat.jpg},
+  abstract={Consider an i.i.d. sample from an unknown density function supported on an unknown manifold embedded in a high dimensional Euclidean space. We tackle the problem of learning a distance between points, able to capture both the geometry of the manifold and the underlying density. We define such a sample distance and prove the convergence, as the sample size goes to infinity, to a macroscopic one that we call Fermat distance as it minimizes a path functional, resembling Fermat principle in optics. The proof boils down to the study of geodesics in Euclidean first-passage percolation for nonhomogeneous Poisson point processes.},
+  code={https://bitbucket.org/aristas/fermat/src/master/},
   bibtex_show={true}
 }
 
@@ -145,6 +152,7 @@
   publisher={Nature Publishing Group UK London},
   bibtex_show={true},
   selected={true},
+  abstract={The presence of correlations in physical systems can be a valuable resource for many quantum information tasks. They are also relevant in thermodynamic transformations, and their creation is usually associated to some energetic cost. In this work, we study the role of correlations in the thermodynamic process of state formation in the single-shot regime, and find that correlations can also be viewed as a resource. First, we show that the energetic cost of creating multiple copies of a given state can be reduced by allowing correlations in the final state. We obtain the minimum cost for every finite number of subsystems, and then we show that this feature is not restricted to the case of copies. More generally, we demonstrate that in the asymptotic limit, by allowing a logarithmic amount of correlations, we can recover standard results where the free energy quantifies this minimum cost.},
   preview={quantum-thermodynamics.jpg}
 }
 
@@ -157,6 +165,7 @@
   year={2018},
   publisher={Springer},
   bibtex_show={true},
+  abstract={A phenomenological model based on a linear relationship between the magnetic coercivity field and the reciprocal of the grain diameter is applied to explain the anhysteretic remanent magnetization (ARM) imparted to artificial samples with different concentrations of a very well characterized magnetite powder. By analyses of scanning electron microscopy images, the spherically shaped single domain synthetic magnetite is found to follow a lognormal grain size distribution with ~86 nm of mean diameter. The proposed model, fitted to ARM measurements up to a peak alternating field of 100 mT, yields a very good agreement. The coercivity behaviour predicted by micromagnetism theory disagrees with the experimental results of this work. A likely explanation for the discrepancy is that the magnetite particles, which consist of a mixture of grains in coherent rotation and curling modes, produce similar observations as domain processes.},
   preview={grains.png}
 }
 
@@ -166,6 +175,7 @@
   year={2018},
   bibtex_show={true},
   pdf={example_pdf.pdf},
+  abstract={We propose a density-based estimator for weighted geodesic distances suitable for data lying on a manifold of lower dimension than ambient space and sampled from a possibly nonuniform distribution. After discussing its properties and implementation, we evaluate its performance as a tool for clustering tasks. A discussion on the consistency of the estimator is also given.},
   preview={Fermat.jpg}
 }
 
