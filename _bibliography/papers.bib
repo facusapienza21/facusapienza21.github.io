@@ -63,20 +63,23 @@
 
 @article{bolibar2023universal,
   title={Universal Differential Equations for glacier ice flow modelling},
-  author={Bolibar, Jordi and Sapienza, Facundo and Maussion, Fabien and Lguensat, Redouane and Wouters, Bert and P{\'e}rez, Fernando},
-  journal={Geoscientific Model Development Discussions},
-  volume={2023},
-  pages={1--26},
+  author={Bolibar, J. and Sapienza, F. and Maussion, F. and Lguensat, R. and Wouters, B. and P\'erez, F.},
+  journal={Geoscientific Model Development},
+  volume={16},
+  pages={6671--6687},
   year={2023},
+  number={22},
   publisher={G{\"o}ttingen, Germany},
-  html={https://gmd.copernicus.org/preprints/gmd-2023-120/},
-  pdf={https://gmd.copernicus.org/preprints/gmd-2023-120/gmd-2023-120.pdf},
+  html={https://gmd.copernicus.org/articles/16/6671/2023/},
+  pdf={https://gmd.copernicus.org/articles/16/6671/2023/gmd-16-6671-2023.pdf},
   code={https://github.com/ODINN-SciML/ODINN.jl},
+  DOI = {10.5194/gmd-16-6671-2023},
   preview={ODINN.jpg},
   abstract={Geoscientific models are facing increasing challenges to exploit growing datasets coming from remote sensing. Universal Differential Equations (UDEs), aided by differentiable programming, provide a new scientific modelling paradigm enabling both complex functional inversions to potentially discover new physical laws and data assimilation from heterogeneous and sparse observations. We demonstrate an application of UDEs as a proof of concept to learn the creep component of ice flow, i.e. a nonlinear diffusivity differential equation, of a glacier evolution model. By combining a mechanistic model based on a 2D Shallow Ice Approximation Partial Differential Equation with an embedded neural network, i.e. a UDE, we can learn parts of an equation as nonlinear functions that then can be translated into mathematical expressions. We implemented this modelling framework as ODINN.jl, a package in the Julia programming language, providing high performance, source-to-source automatic differentiation (AD) and seamless integration with tools and global datasets from the Open Global Glacier Model in Python. We demonstrate this concept for 17 different glaciers around the world, for which we successfully recover a prescribed artificial law describing ice creep variability by solving ca 500,000 Ordinary Differential Equations in parallel. Furthermore, we investigate which are the best tools in the scientific machine learning ecosystem in Julia to differentiate and optimize large nonlinear diffusivity UDEs. This study represents a proof of concept for a new modelling framework aiming at discovering empirical laws for large-scale glacier processes, such as the variability of ice creep and basal sliding for ice flow, and new hybrid surface mass balance models.},
   bibtex_show={true},
   selected={true}
 }
+
 
 @article{cerisola2022heat,
   title={Heat engines with single-shot deterministic work extraction},
