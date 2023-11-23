@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a single and beautiful `.bib` file from a bunch of `.bib`s and `.tex`
+title: Creating a single stadarized bibliography file from a bunch of bibliography and latex files
 date: 2023-11-22 15:09:00
 description: Bored of formating bibliography files in latex manually? Solve this for good.
 tags: computing scientific-writing
@@ -8,7 +8,41 @@ categories: posts
 featured: true
 ---
 
-Tired of formating you bibliography files in latex? Are you a little bit obsessed about the format of your text files, including author, title, year, ... ordering or spacing/tabulation (that will be me)?,Do you have a bunch of different bibliography and latex files that all combine to compule one single manuscript and you would like to unify them all under a single `bibliography.bib` file? Then you will find this post useful. 
+Tired of formating you bibliography files in latex? Are you a little bit obsessed about the format of your text files, including author, title, year, ... ordering or spacing/tabulation (that will be me)? Do you have a bunch of different bibliography and latex files that all combine to compule one single manuscript and you would like to unify them all under a single `bibliography.bib` file? Then you will find this post useful. 
+
+Maybe you latex project looks like this, 
+```
+.
+|- main.tex
+|- main.pdf
+|- chapters
+   |- intro.tex
+   |- chp_1.tex
+   |  ...
+   |- chp_19.tex
+|- biblography
+   |- bib1.bib
+   |- ...
+   |- bib11.bib
+```
+and you spend quite some time curating you bibliography files so they look complete and well organize, but instead they look like this: 
+```
+# bib1.bib
+
+@incollection{key1,
+title = {A cool paper},
+author = {My collegue},
+booktitle = {Advances in Neural Information Processing Systems 24},
+pages = {1899--1907},
+year = {2011},
+}
+
+@article {key2,
+    AUTHOR = {other authors},
+     TITLE = {Some title},
+   JOURNAL = {Ann. Appl. Probab.},
+}
+```
 
 If well in `biblatex` we can add multiple bibliography files with the `\addbibresource` command in the preamble, it could be useful to manipulate your bibliography entries in a more convenient way. Fortunately for us, the Python library `pybtex` allow us to do this. Let's see this with one example. We start with the following imports. 
 ```python
@@ -92,3 +126,9 @@ for entry in authors:
         if not ref_founded:
             warnings.warn("Reference not found: {}".format(entry))
 ```
+and finally export a new `.bib` file with the references in a nice format: 
+```python
+filtered_bib_data.to_file("bib_test.bib", bib_format="bibtex")
+```
+
+Here is a single [Python script](https://github.com/facusapienza21/DiffEqSensitivity-Review/blob/main/.utils/biblatex_merger.py) that does all this work and you can directly execute from the terminal to produce an unified and formated `.bib` file. Why to stop here? You can further create a [GitHub Action](https://github.com/facusapienza21/DiffEqSensitivity-Review/blob/main/.github/workflows/biblatex.yml) that does this for you automatically every time you make changes to your `.bib` and `.tex` files!  
