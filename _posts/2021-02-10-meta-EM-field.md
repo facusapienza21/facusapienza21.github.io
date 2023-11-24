@@ -5,7 +5,7 @@ description: Some phylosophical gambling around physical ideas
 tags: phylosophy physics
 giscus_comments: true
 date: 2021-02-10
-featured: true
+featured: false
 
 authors:
   - name: Facundo Sapienza
