@@ -5,7 +5,7 @@ date: 2023-11-22 15:09:00
 description: Bored of formating bibliography files in latex manually? Solve this for good.
 tags: computing scientific-writing
 categories: posts
-featured: true
+featured: false
 ---
 
 Tired of formating you bibliography files in latex? Are you a little bit obsessed about the format of your text files, including author, title, year, ... ordering or spacing/tabulation (that will be me)? Do you have a bunch of different bibliography and latex files that all combine to compule one single manuscript and you would like to unify them all under a single `bibliography.bib` file? Then you will find this post useful. 

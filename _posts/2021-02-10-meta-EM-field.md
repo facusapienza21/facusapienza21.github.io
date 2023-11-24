@@ -59,11 +59,11 @@ This last formulation suggests that the EM field could be understood as an own e
 
 Let’s consider the following example in order to start picturing the main thesis. There are two charged particles, A and B, separated by some distance between them. While B is still, we move particle A a little bit and then we stop the perturbation (time 1 in the figure). Since the speed of light is finite, we need to wait some time until B can feel the effect of moving particle A. During this gap, both A and B are still and an EM wave is traveling from A to B. With some delay, particle B will feel the previous movement of A and will start moving. We can compute this movement by using the Lorentz force. This sequence is illustrated in the following figure
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/blog/meta-em.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div> -->
+</div>
 
 If we freeze the state of the universe at time $$t_2$$, the total kinetic and potential energy of both A and B is less that the one at time $$t_1$$ or $$t_3$$, where there was a positive contribution to the kinetic energy given by the movement of A and B, respectively. During $$t_2$$, the contribution of the kinetic energy is zero, which violates the conservation of energy of the particles. Of course, in order to have a full description of the energy of the system we need to include the energy of the EM field. From this simple analysis we conclude that denying the metaphysical content of the electromagnetic field leads us to a violation of the conservation of energy. 
 
