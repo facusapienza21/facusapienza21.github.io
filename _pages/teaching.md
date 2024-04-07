@@ -17,6 +17,7 @@ Courses where I served as teaching assistant at UC Berkeley
 I also intructed in the University of Buenos Aires 
 - [Fall 2017] **Topics of Physics for Math majors**
 
+</br>
 ### Developing STAT 159 at UC Berkeley
 
 With Fernando Pérez and building on top of the contributions of past intructors of this course, we have developed a new curriculum for undergraduate and graduate students that focuses in good computational practices that encourage collaboration and reproducibility. The contents of **STAT 159/259:  Collaborative and Reproducible Data Science** include
@@ -33,6 +34,25 @@ We believe there is a need in introducing these contents to students in data sci
 
 If you are interested in the contents of the course, you can check the [course website](https://ucb-stat-159-s23.github.io/site/) where you can see notes and labs.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/stat159.png" title="Stat159" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Overview of topics and tools covered in the course
+</div>
+
+</br>
 ## Workshops
 
 I am a member of the organizing team and instructor of the [Machine Learning in Glaciology workshop](https://machine-learning-in-glaciology-workshop.github.io). There had been already two realizations of the workshop in 2022 and 2023 in the Finse research station in Norway. The goal of the workshop is to introduce machine learning tools to both students and reseachers working in glacier modelling and encourage new collaborations.  
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/finse.png" title="Finse" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Finse research station in Norway 
+</div>
