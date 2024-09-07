@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Department of Statistics, UC Berkeley.
+subtitle: <a href='#'>Affiliations</a>. Department of Geophysics, Stanford University.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>485 Evans Hall</p>
-    <p>University of California, Berkeley</p>
-    <p>CA 94703, USA</p>
+    <p>359 Mitchell Building</p>
+    <p>Stanford University</p>
+    <p>CA 94305, USA</p>
 
 news: true              # includes a list of news items
 latest_posts: false     # includes a list of the newest posts
@@ -19,9 +19,9 @@ selected_papers: true   # includes a list of papers marked as "selected={true}"
 social: true            # includes social icons at the bottom of the page
 ---
 
-I am an Argentinian PhD candidate with a background in mathematics, physics, and data science. 
+I am an Argentinian postdoctoral researcher in the [Stanford Icy Physics Lab](https://icyphysics.stanford.edu/) working with Prof. Ching-Yao Lai. 
 My research lies in the intersection of novel data science methods and physics, with emphasis in glacier modelling and scientific software development. 
-I am fortunate to be advised by Fernando Pérez (UC Berkeley, Project Jupyter) and Jonathan Taylor (Stanford). 
+Before joining Stanford, I completed my PhD at UC Berkeley under the supervision of Prof. Fernando Pérez (UC Berkeley, Project Jupyter) and Prof. Jonathan Taylor (Stanford). 
 
 Large part of my work is motivated by the use of differential equations as regression mechanisms to model complex geophysical systems. 
 By leveraging in modern differential programming tools, it is possible to train machine learning models where the modelled response is given by the numerical solutions of physical constrained differential equations. 
