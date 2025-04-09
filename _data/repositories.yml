@@ -3,6 +3,7 @@ github_users:
 
 github_repos:
   - ODINN-SciML/ODINN.jl
+  - ODINN-SciML/SphereUDE.jl
   - ODINN-SciML/DiffEqSensitivity-Review
   - PolarWandering/PaleoSampling
   - Fermat-distance/fermat
