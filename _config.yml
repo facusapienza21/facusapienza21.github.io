@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Facundo
 middle_name: 
 last_name: Sapienza
-email: fsapienza@berkeley.edu
+email: sapienza@stanford.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Facundo Sapienza personal website
 footer_text: >
@@ -103,7 +103,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can send me an email to `fsapienza@berkeley.edu`
+  You can send me an email to `sapienza@stanford.edu`
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
