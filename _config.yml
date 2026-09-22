@@ -272,7 +272,7 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 scholar:
 
   last_name: [Sapienza]
-  first_name: [Facundo]
+  first_name: [Facundo, F., F]
 
   style: apa
   locale: en
