@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Incoming MIAI Chair, Université Grenoble Alpes.
+subtitle: <a href='#'>Affiliations</a>. MIAI Chair, Université Grenoble Alpes.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Cuarto 19, DM</p>
-    <p>Pabellón 1</p>
-    <p>BsAs, Argentina</p>
+    <p>Office 210, MCP Building</p>
+    <p>Université Grenoble Alpes</p>
+    <p>Grenoble, France</p>
 
 news: true              # includes a list of news items
 latest_posts: false     # includes a list of the newest posts
@@ -19,8 +19,7 @@ selected_papers: true   # includes a list of papers marked as "selected={true}"
 social: true            # includes social icons at the bottom of the page
 ---
 
-I am an Argentinian researcher.
-I am currently on an extended period of travel with no formal affiliation, and in November I will be joining Université Grenoble Alpes (France) as a Chair of the [Multidisciplinary Institute in Artificial Intelligence](https://miai-cluster.univ-grenoble-alpes.fr/miai-cluster/home-miai-1579890.kjsp?RH=6071747120751415).
+I am currently a Chair of the [Multidisciplinary Institute in Artificial Intelligence](https://miai-cluster.univ-grenoble-alpes.fr/miai-cluster/home-miai-1579890.kjsp?RH=6071747120751415) at Université Grenoble Alpes (France).
 My research lies in the intersection of novel data science methods and physics, with an emphasis on glacier modelling and scientific software development.
 Before this, I completed my PhD at UC Berkeley under the supervision of Prof. Fernando Pérez (UC Berkeley, Project Jupyter) and Prof. Jonathan Taylor (Stanford), spent a year and a half as a postdoctoral researcher at the [Stanford Icy Physics Lab](https://icyphysics.stanford.edu/) working with Prof. Ching-Yao Lai, and was a visiting professor at the Department of Mathematics at the University of Buenos Aires.
 

@@ -37,10 +37,15 @@
 - title: Professional Experience
   type: time_table
   contents:
+    - title: MIAI Chair
+      institution: Université Grenoble Alpes, France
+      department: Multidisciplinary Institute in Artificial Intelligence
+      year: 2026 - Now
+
     - title: Visiting Professor
       institution: Univerisity of Buenos Aires, Argentina
       department: Department of Mathematics
-      year: 2026 - Now
+      year: 2026
 
     - title: Postdoctoral Researcher
       institution: Stanford University, USA
