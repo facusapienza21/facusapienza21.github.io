@@ -1,14 +1,26 @@
-{% assign repo_url =  include.repository | split: '/' %}
+{% assign repo = include.repository %}
+{% assign repo_parts = repo.repo | split: '/' %}
+{% assign lang_colors = "Julia:#a270ba,Python:#3572A5,TeX:#3D6117,Jupyter Notebook:#DA5B0B,R:#198CE7" | split: "," %}
+{% assign lang_color = "#8b949e" %}
+{% for pair in lang_colors %}
+  {% assign kv = pair | split: ":" %}
+  {% if kv[0] == repo.language %}{% assign lang_color = kv[1] %}{% endif %}
+{% endfor %}
 
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
-{% else %}
-  {% assign show_owner = true %}
-{% endif %}
-
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img class="repo-img-light w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}">
-    <img class="repo-img-dark w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}">
-  </a>
+<div class="repo-card">
+  <div class="repo-card-header">
+    <a href="https://github.com/{{ repo.repo }}" class="repo-card-title">
+      <span class="repo-card-owner">{{ repo_parts[0] }} /</span> {{ repo_parts[1] }}
+    </a>
+  </div>
+  <p class="repo-card-description">{{ repo.description }}</p>
+  <div class="repo-card-footer">
+    {% if repo.language %}
+    <span class="repo-card-lang"><span class="repo-card-lang-dot" style="background-color: {{ lang_color }}"></span>{{ repo.language }}</span>
+    {% endif %}
+    {% if repo.homepage %}
+    <a href="{{ repo.homepage }}" class="repo-card-link">Website</a>
+    {% endif %}
+    <a href="https://github.com/{{ repo.repo }}" class="repo-card-link">Code</a>
+  </div>
 </div>

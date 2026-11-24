@@ -1,6 +1,11 @@
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}">
-    <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true">
-    <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true">
+{% assign user = include.user %}
+<div class="repo-card repo-user-card">
+  <a href="https://github.com/{{ user.username }}">
+    <img class="repo-user-avatar" src="https://github.com/{{ user.username }}.png?size=160" alt="{{ user.username }}">
   </a>
+  <div>
+    <a href="https://github.com/{{ user.username }}" class="repo-card-title">{{ user.name }}</a>
+    <div class="repo-card-owner">@{{ user.username }}</div>
+    {% if user.bio %}<p class="repo-card-description mb-0">{{ user.bio }}</p>{% endif %}
+  </div>
 </div>

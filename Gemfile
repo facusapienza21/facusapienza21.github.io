@@ -21,6 +21,12 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+# Former standard-library gems that newer Rubies (3.4+/4.0) no longer bundle
+gem 'base64'
+gem 'bigdecimal'
+gem 'csv'
+gem 'logger'
+gem 'ostruct'
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
