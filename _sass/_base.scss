@@ -668,6 +668,30 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      aspect-ratio: 3 / 2;  // all card figures share the same size
+      object-fit: cover;    // crop (centered) instead of stretching
+    }
+
+    .card-body {
+      padding: 1rem;
+    }
+
+    .card-title {
+      font-size: 1rem;      // keep titles on a single line in the 250px cards
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    // Reserve exactly 3 lines for descriptions so all cards have the same height
+    .card-text {
+      line-height: 1.5;
+      min-height: 4.5em;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
   }
 

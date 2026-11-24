@@ -54,10 +54,12 @@ I am recruiting a PhD student and a postdoctoral researcher to join my group in 
           The PhD will be supervised by Facundo Sapienza (main supervisor), with <a href="https://jordibolibar.wordpress.com/" target="_blank">Jordi Bolibar</a> and <a href="https://www.ige-grenoble.fr/Antoine-Rabatel" target="_blank">Antoine Rabatel</a> as co-advisors.
           <!-- TODO: add start date, duration and a short description of the topic -->
         </p>
-        <!-- TODO: add the job description PDF at assets/pdf/phd_position.pdf -->
+        {% comment %}
+        TODO: hidden until ready. Add the job description PDF at assets/pdf/phd_position.pdf,
+        replace # with the link to the application form, then remove this comment block.
         <a href="{{ '/assets/pdf/phd_position.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Job description (PDF)</a>
-        <!-- TODO: replace # with the link to the application form -->
         <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank">Application form</a>
+        {% endcomment %}
       </div>
     </div>
   </div>
