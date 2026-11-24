@@ -15,9 +15,7 @@ nav: false
 </table>
 </div>
 
-We are seeking a motivated PhD candidate to join the <a href="https://odinn-group.org" target="_blank">ODINN group</a> at the Institute of Environmental Geosciences (IGE), Université Grenoble Alpes.
-The project will use physics-informed machine learning to model surface mass balance of glaciers in the tropical, subtropical and southern Andes, and to couple these models with ice flow simulations in ODINN.
-The position is part of the project *Scientific Discovery in Geosciences via Physics-Informed Machine Learning* (SIDERAL), funded by the Multidisciplinary Institute in Artificial Intelligence (MIAI).
+We are seeking a motivated PhD candidate to join the group working on the development of ODINN at the Institute of Environmental Geosciences (Institut des Géosciences de l’Environnement, IGE), a joint research laboratory at Université Grenoble Alpes (UGA), France. The project will focus on physics-informed machine learning methods to improve our understanding of glacier dynamics and how glaciers respond to a changing climate. The position is fully funded for three years and is part of the project *Scientific Discovery in Geosciences via Physics-Informed Machine Learning* (SIDERAL), funded by the Multidisciplinary Institute in Artificial Intelligence (MIAI) at UGA.
 
 <ul class="position-links">
   <li>
