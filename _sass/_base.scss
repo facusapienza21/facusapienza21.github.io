@@ -672,6 +672,13 @@ footer.sticky-bottom {
       object-fit: cover;    // crop (centered) instead of stretching
     }
 
+    // Projects without an image keep the same height as the others
+    .card-img-placeholder {
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      background-color: var(--global-divider-color);
+    }
+
     .card-body {
       padding: 1rem;
     }

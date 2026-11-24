@@ -11,6 +11,8 @@
         {%- include figure.html
           path=project.img
           alt="project thumbnail" -%}
+        {%- else %}
+        <figure><div class="card-img-placeholder" aria-hidden="true"></div></figure>
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title">{{ project.title }}</h2>
