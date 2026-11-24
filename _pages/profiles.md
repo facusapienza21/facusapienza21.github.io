@@ -55,11 +55,11 @@ I am recruiting a PhD student and a postdoctoral researcher to join my group in 
           <!-- TODO: add start date, duration and a short description of the topic -->
         </p>
         {% comment %}
-        TODO: hidden until ready. Add the job description PDF at assets/pdf/phd_position.pdf,
-        replace # with the link to the application form, then remove this comment block.
+        TODO: hidden until the job description PDF is added at assets/pdf/phd_position.pdf.
+        Then move this line out of the comment block.
         <a href="{{ '/assets/pdf/phd_position.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Job description (PDF)</a>
-        <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank">Application form</a>
         {% endcomment %}
+        <a href="{{ '/assets/pdf/phd_application_form.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Application form (PDF)</a>
       </div>
     </div>
   </div>
