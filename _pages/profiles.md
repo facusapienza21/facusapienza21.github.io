@@ -47,22 +47,18 @@ I am recruiting a PhD student and a postdoctoral researcher to join my group in 
   <div class="col-12 mb-4">
     <div class="card">
       <div class="card-body p-4">
-        <h3 class="card-title">PhD Position</h3>
+        <h3 class="card-title"><a href="{{ '/phd-position/' | relative_url }}">PhD Position</a></h3>
         <p class="card-text">
           A PhD position on physics-informed machine learning for modelling mass balance processes in Andean glaciers.
           The PhD student will be part of the <a href="https://odinn-group.org" target="_blank">ODINN group</a>.
           The PhD will be supervised by Facundo Sapienza (main supervisor), with <a href="https://jordibolibar.wordpress.com/" target="_blank">Jordi Bolibar</a> and <a href="https://www.ige-grenoble.fr/Antoine-Rabatel" target="_blank">Antoine Rabatel</a> as co-advisors.
-          <!-- TODO: add start date, duration and a short description of the topic -->
+          Fully funded for 3 years, starting February–April 2027. <strong>Deadline: December 22, 2026.</strong>
         </p>
         <ul class="position-links">
-          {% comment %} Shown automatically once assets/pdf/phd_position.pdf exists {% endcomment %}
-          {% assign phd_description = site.static_files | where: "path", "/assets/pdf/phd_position.pdf" | first %}
-          {% if phd_description %}
           <li>
             <i class="material-icons">article</i>
-            <span><a href="{{ '/phd-position/' | relative_url }}">Job description</a>: read it before applying</span>
+            <span><a href="{{ '/phd-position/' | relative_url }}">Position details and job description</a></span>
           </li>
-          {% endif %}
           <li>
             <i class="material-icons">description</i>
             <span><a href="{{ '/phd-application/' | relative_url }}">Application form</a>: view it online or download it as a PDF</span>
