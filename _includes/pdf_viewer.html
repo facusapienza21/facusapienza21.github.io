@@ -1,0 +1,25 @@
+{%- comment -%}
+  In-page PDF viewer with Download / Open-in-new-tab buttons.
+  Parameters: pdf (path under the site root, e.g. /assets/pdf/x.pdf), label (button text)
+{%- endcomment -%}
+{%- assign pdf_file = site.static_files | where: "path", include.pdf | first -%}
+{%- assign pdf_url = include.pdf | relative_url -%}
+{%- if pdf_file -%}
+<div class="pdf-viewer-actions">
+  <a href="{{ pdf_url }}" download="{{ pdf_file.name }}" class="btn z-depth-0" role="button">
+    <i class="material-icons">file_download</i> Download {{ include.label }} (PDF)
+  </a>
+  <a href="{{ pdf_url }}" target="_blank" class="btn z-depth-0" role="button">
+    <i class="material-icons">open_in_new</i> Open in new tab
+  </a>
+</div>
+
+<object class="pdf-viewer" data="{{ pdf_url }}#navpanes=0&view=FitH" type="application/pdf">
+  <p class="pdf-viewer-fallback">
+    Your browser cannot display the PDF here.
+    <a href="{{ pdf_url }}" download="{{ pdf_file.name }}">Download the {{ include.label }}</a> instead.
+  </p>
+</object>
+{%- else -%}
+<p><em>This document will be available soon.</em></p>
+{%- endif -%}

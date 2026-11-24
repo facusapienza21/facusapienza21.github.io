@@ -55,14 +55,14 @@ I am recruiting a PhD student and a postdoctoral researcher to join my group in 
           <!-- TODO: add start date, duration and a short description of the topic -->
         </p>
         <ul class="position-links">
-          {% comment %}
-          TODO: hidden until the job description PDF is added at assets/pdf/phd_position.pdf.
-          Then move this item out of the comment block.
+          {% comment %} Shown automatically once assets/pdf/phd_position.pdf exists {% endcomment %}
+          {% assign phd_description = site.static_files | where: "path", "/assets/pdf/phd_position.pdf" | first %}
+          {% if phd_description %}
           <li>
             <i class="material-icons">article</i>
-            <a href="{{ '/assets/pdf/phd_position.pdf' | relative_url }}" target="_blank">Job description</a>
+            <span><a href="{{ '/phd-position/' | relative_url }}">Job description</a>: read it before applying</span>
           </li>
-          {% endcomment %}
+          {% endif %}
           <li>
             <i class="material-icons">description</i>
             <span><a href="{{ '/phd-application/' | relative_url }}">Application form</a>: view it online or download it as a PDF</span>
