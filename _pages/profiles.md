@@ -57,11 +57,7 @@ I am recruiting a PhD student and a postdoctoral researcher to join my group in 
         <ul class="position-links">
           <li>
             <i class="material-icons">article</i>
-            <span><a href="{{ '/phd-position/' | relative_url }}">Position details and job description</a></span>
-          </li>
-          <li>
-            <i class="material-icons">description</i>
-            <span><a href="{{ '/phd-application/' | relative_url }}">Application form</a>: view it online or download it as a PDF</span>
+            <span><a href="{{ '/phd-position/' | relative_url }}">Position details and how to apply</a></span>
           </li>
         </ul>
       </div>
