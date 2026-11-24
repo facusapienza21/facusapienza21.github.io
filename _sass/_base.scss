@@ -460,6 +460,72 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
+// Open positions
+
+.position-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .material-icons {
+    color: var(--global-theme-color);
+    font-size: 1.6rem;
+  }
+
+  a {
+    font-weight: 500;
+  }
+}
+
+// PDF viewer page
+
+.pdf-viewer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 6px;
+    color: var(--global-theme-color);
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+    }
+  }
+
+  .material-icons {
+    font-size: 1.2rem;
+  }
+}
+
+.pdf-viewer {
+  display: block;
+  width: 100%;
+  height: 85vh;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+}
+
+.pdf-viewer-fallback {
+  padding: 1rem;
+}
+
 // Repositories
 
 .repo-grid {

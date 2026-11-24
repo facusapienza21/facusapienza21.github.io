@@ -54,12 +54,20 @@ I am recruiting a PhD student and a postdoctoral researcher to join my group in 
           The PhD will be supervised by Facundo Sapienza (main supervisor), with <a href="https://jordibolibar.wordpress.com/" target="_blank">Jordi Bolibar</a> and <a href="https://www.ige-grenoble.fr/Antoine-Rabatel" target="_blank">Antoine Rabatel</a> as co-advisors.
           <!-- TODO: add start date, duration and a short description of the topic -->
         </p>
-        {% comment %}
-        TODO: hidden until the job description PDF is added at assets/pdf/phd_position.pdf.
-        Then move this line out of the comment block.
-        <a href="{{ '/assets/pdf/phd_position.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Job description (PDF)</a>
-        {% endcomment %}
-        <a href="{{ '/assets/pdf/phd_application_form.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Application form (PDF)</a>
+        <ul class="position-links">
+          {% comment %}
+          TODO: hidden until the job description PDF is added at assets/pdf/phd_position.pdf.
+          Then move this item out of the comment block.
+          <li>
+            <i class="material-icons">article</i>
+            <a href="{{ '/assets/pdf/phd_position.pdf' | relative_url }}" target="_blank">Job description</a>
+          </li>
+          {% endcomment %}
+          <li>
+            <i class="material-icons">description</i>
+            <span><a href="{{ '/phd-application/' | relative_url }}">Application form</a>: view it online or download it as a PDF</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
