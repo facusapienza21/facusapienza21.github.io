@@ -2,12 +2,16 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This are some of the projects I being working during these last years. 
+description: My research combines methods from differentiable programming, physics and AI with applications in glaciology, paleomagnetism and geomagnetism.
 nav: true
-nav_order: 2
-display_categories: [Machine Learning and Geophysics, Statistics]
+nav_order: 1
+display_categories: [Methods, Geophysical Domains, Past Projects]
 horizontal: false
 ---
+
+<h2 class="category">Funded Projects</h2>
+
+- **SIDERAL: Scientific Discovery in Geosciences via Physics-Informed Machine Learning** (2026–2030). Total funding: €400k.
 
 <!-- pages/projects.md -->
 <div class="projects">
