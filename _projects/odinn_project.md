@@ -8,6 +8,8 @@ category: Geophysical Domains
 related_publications: bolibar2023universal
 ---
 
+I am a member of the [ODINN group](https://odinn.science/). Learn more about the group, its people and its research at [odinn.science](https://odinn.science/).
+
 Mountain glaciers, sea ice and ice sheets are the canary in the coal mine of climate change. 
 They play a critical role on the delicate balance of our planet.
 Understanding the governing laws of ice masses is critical from both scientific and social perspectives. 

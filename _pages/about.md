@@ -19,7 +19,7 @@ selected_papers: false  # includes a list of papers marked as "selected={true}"
 social: true            # includes social icons at the bottom of the page
 ---
 
-I am currently a Chair of the [Multidisciplinary Institute in Artificial Intelligence](https://miai-cluster.univ-grenoble-alpes.fr/miai-cluster/home-miai-1579890.kjsp?RH=6071747120751415) at the [Institute of Environmental Geosciences](https://www.ige-grenoble.fr/?lang=en) (IGE), Université Grenoble Alpes (France).
+I am currently a Chair of the [Multidisciplinary Institute in Artificial Intelligence](https://miai-cluster.univ-grenoble-alpes.fr/miai-cluster/home-miai-1579890.kjsp?RH=6071747120751415) at the [Institute of Environmental Geosciences](https://www.ige-grenoble.fr/?lang=en) (IGE), Université Grenoble Alpes (France), and a member of the [ODINN group](https://odinn.science/).
 Before this, I completed my PhD in Statistics at UC Berkeley, was a postdoctoral researcher at the [Stanford Icy Physics Lab](https://icyphysics.stanford.edu/), and a visiting professor at the Department of Mathematics at the University of Buenos Aires.
 
 My research combines differential equations and machine learning to model complex geophysical systems.

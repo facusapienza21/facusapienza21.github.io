@@ -26,6 +26,10 @@ We are seeking a motivated PhD candidate to join the group working on the develo
     <i class="material-icons">description</i>
     <span><a href="{{ '/phd-application/' | relative_url }}">Application form</a>: fill it in and send it with your documents</span>
   </li>
+  <li>
+    <i class="material-icons">groups</i>
+    <span><a href="https://odinn.science/" target="_blank">ODINN group</a>: learn more about the group you will join</span>
+  </li>
 </ul>
 
 <h2 id="job-description" class="mt-5">Job description</h2>
